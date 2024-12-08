@@ -5,23 +5,23 @@ body {
     font-family: Lato, sans-serif;
 }
 
-.aaa {
+.info-section {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
 
-.aaa img {
+.info-section img {
     width: 100%;
 }
 
-.aaa .more-inf {
+.info-section .more-inf {
     font-family: fantasy, cursive;
 }
 
 @media (max-width: 768px) {
-    .aaa {
+    .info-section {
         text-align: center;
     }
 }
@@ -32,13 +32,13 @@ body {
     margin: 0 auto 0;
 }
 
-.task {
+.task-input {
     width: 56%;
     display: inline-block;
     flex-grow: 1
 }
 
-.task-row-wrapper {
+.task-row {
     display: flex;
 }
 
