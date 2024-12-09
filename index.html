@@ -7,12 +7,12 @@
 <body>
 <header class="info-section">
     <img src="./eisenhower-matrix.jpg">
-    <a class="more-inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
+    <a class="more-info" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
 </header>
 <main class="container">
-    <section id="topSectionForAddingElementToList">
-        <h3>Add Item</h3>
-        <div class="task-row">
+    <section class="add-item-section" id="topSectionForAddingElementToList">
+        <h3 class="add-item-section__title">Add Item</h3>
+        <div class="add-item-task-row">
             <input
                 id="new-task"
                 class="task-input"
@@ -21,10 +21,10 @@
             <button>Add</button>
         </div>
     </section>
-    <section>
-        <h3>Todo</h3>
-        <ul id="incompleteTasks">
-            <li>
+    <section class="todo-section">
+        <h3 class="todo-section__title">Todo</h3>
+        <ul class="todo-section__todo-list" id="incompleteTasks">
+            <li class="todo-section__todo-list__item">
                 <input type="checkbox">
                 <label class="task-input">Pay Bills</label>
                 <input type="text" class="task-input">
@@ -33,7 +33,7 @@
                     <img src="./remove.svg" alt="delete">
                 </button>
             </li>
-            <li class="edit-mode">
+            <li class="todo-list__item--edit-mode">
                 <input type="checkbox">
                 <label class="task-input">Go Shopping</label>
                 <input
@@ -48,9 +48,9 @@
             </li>
         </ul>
     </section>
-    <section>
-        <h3>Completed</h3>
-        <ul id="completed-tasks">
+    <section class="completed-section">
+        <h3 class="completed-section__title">Completed</h3>
+        <ul class="completed-section__completed-list" id="completed-tasks">
             <li>
                 <input type="checkbox" checked>
                 <label class="task-input">See the Doctor</label>

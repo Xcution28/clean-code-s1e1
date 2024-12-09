@@ -16,7 +16,7 @@ body {
     width: 100%;
 }
 
-.info-section .more-inf {
+.info-section .more-info {
     font-family: fantasy, cursive;
 }
 
@@ -38,14 +38,14 @@ body {
     flex-grow: 1
 }
 
-.task-row {
+.add-item-task-row {
     display: flex;
     margin-top: 20px;
 }
 
 ul {
     margin: 0;
-    padding: 0px;
+    padding: 0;
 }
 
 li,
@@ -60,7 +60,7 @@ button {
 
 button {
     background: none;
-    border: 0px;
+    border: 0;
     color: #888;
     font-size: 15px;
     width: 60px;
